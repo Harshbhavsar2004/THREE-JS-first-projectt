@@ -1,0 +1,23 @@
+{
+  "name": "threejs-journey-exercise",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+  
+    "build": "webpack --config ./bundler/webpack.prod.js",
+   "dev": "webpack serve --config .build/webpack.dev.js",
+   "deploy": "vercel --prod"
+   
+  },
+  "devDependencies": {
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.5.1",
+    "lil-gui": "^0.19.1",
+    "three": "^0.148.0",
+    "vercel": "^33.1.0"
+  }
+}
